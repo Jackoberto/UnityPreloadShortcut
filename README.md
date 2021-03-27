@@ -10,3 +10,14 @@ The Script Will Then Create An Extra Play Button Next To The Normal Play Button 
 In Just Before Pressing The Button 
 
 ## How To Use It
+After Installing You'll See Two New Buttons In The Toolbar A Settings Wheel And A Green Playbutton Click The Settings Wheel To Start Setting It Up
+
+![Image Of Finding Settings](ExamplePictures/FindSettings.png)
+
+Now When You're In The Settings Menu You Can Attach Whatever Scene You Like To Be Your *"PreLoadScene"*
+
+![Image Of Setting Up PreLoadScene](ExamplePictures/SetupScene.png)
+
+Voila You're Now Ready To Start Using The Green Play Button To Load The *"PreLoadScene"* Wherever You're Currently Working In The Project
+
+## [UnityPackage Download]
