@@ -2,7 +2,7 @@ using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
-namespace Plugins.UnityToolbar
+namespace Plugins.PreloadShortcut
 {
     public class ToolbarCustomization : ScriptableObject
     {

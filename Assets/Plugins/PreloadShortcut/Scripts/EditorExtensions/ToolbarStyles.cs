@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Plugins.UnityToolbar
+namespace Plugins.PreloadShortcut
 {
     static class ToolbarStyles
     {

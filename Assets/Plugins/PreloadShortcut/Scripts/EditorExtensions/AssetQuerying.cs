@@ -2,7 +2,7 @@
 using System.Linq;
 using UnityEditor;
 
-namespace Plugins.UnityToolbar
+namespace Plugins.PreloadShortcut
 {
     public static class AssetQuerying
     {

@@ -2,7 +2,7 @@
 using System.Linq;
 using UnityEngine;
 
-namespace Plugins.UnityToolbar
+namespace Plugins.PreloadShortcut
 {
     public static class TextureCreator
     {

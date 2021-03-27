@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityToolbarExtender;
 
-namespace Plugins.UnityToolbar
+namespace Plugins.PreloadShortcut
 {
     [InitializeOnLoad]
     public static class EditorSceneManager
@@ -25,7 +25,7 @@ namespace Plugins.UnityToolbar
                 if (_settings == null)
                 {
                     _settings = ScriptableObject.CreateInstance<ToolbarCustomization>();
-                    AssetDatabase.CreateAsset(_settings, "Assets/Plugins/UnityToolbar/Settings/ToolbarSettings.asset");
+                    AssetDatabase.CreateAsset(_settings, "Assets/Plugins/PreloadShortcut/Settings/ToolbarSettings.asset");
                 }
 
                 return _settings;
