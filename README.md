@@ -1,4 +1,4 @@
-# UnityToolbar
+# UnityPreloadShortcut
 Simple Implementation Of How The Awesome Plugin [*UnityToolbar Extender*](https://github.com/marijnz/unity-toolbar-extender)
 Can Be Used
 
@@ -20,4 +20,4 @@ Now When You're In The Settings Menu You Can Attach Whatever Scene You Like To B
 
 Voila You're Now Ready To Start Using The Green Play Button To Load The *"PreLoadScene"* Wherever You're Currently Working In The Project
 
-## [UnityPackage Download](https://github.com/Jackoberto/UnityToolbar/blob/main/PreLoadSceneShortCut.unitypackage?raw=true)
+## [UnityPackage Download](https://github.com/Jackoberto/UnityPreloadShortcut/blob/main/PreLoadSceneShortCut.unitypackage?raw=true)
