@@ -8,6 +8,8 @@ namespace Plugins.PreloadShortcut
     {
         [SerializeField] private bool enabled = true;
         [SerializeField] private SceneAsset preloadScene;
+        [SerializeField, Tooltip("Loads the first Scene that's set up in the Build Settings")]
+        bool loadMainScene = true;
         
         public Texture SettingsWheelColored
         {
@@ -53,7 +55,9 @@ namespace Plugins.PreloadShortcut
             }
         }
 
-        public SceneAsset SceneAsset => preloadScene;
+        public SceneAsset SceneAsset => loadMainScene 
+            ? AssetDatabase.LoadAssetAtPath<SceneAsset>(EditorBuildSettings.scenes[0].path) 
+            : preloadScene;
 
         public bool Enabled => enabled;
     }
